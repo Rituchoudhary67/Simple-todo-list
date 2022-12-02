@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.form-containt{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.add-btn, .delete {
+    background-color: red;
+    margin-left: 50px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.todo-list-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
