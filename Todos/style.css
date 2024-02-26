@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, blue, aqua);
+}
+.container {
+    text-align: center;
+    box-shadow: 2px 2px 30px rgba(32, 19, 19, 0.979);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    overflow-y: scroll;
+    height: 450px;
+}
+.container h1 {
+    color:white;
+    font-size: 2.5em;
+}
+.input-btn {
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 20px;
+}
+.input-btn input {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    box-shadow: 0 0 10px black;
+}
+.input-btn .add-btn {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 30px;
+    border: none;
+    box-shadow: 0 0 10px black;
+}
+.add-btn:hover {
+    box-shadow: 0 0 15px rgba(241,241,241,0.979);
+    background-color: green;
+    cursor: pointer;
+}
+.message {
+    /* border:1px solid black; */
+    height: 20px;
+    margin-top: -20px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.show-data {
+    /* border: 2px solid red; */
+    /* display: flex; */
+    text-align: left;
+}
+.js-container {
+    /* border: 2px solid green; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    font-style:unset;
+    padding: 10px;
+}
+.js-container .para {
+    text-align: left;
+    /* border: 1px solid aqua; */
+}
+.js-container button {
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 3px 5px white;
+    cursor: pointer;
+}
+.js-container button:hover {
+    background-color: blue;
+}
+.js-container .delete-btn {
+    background-color: rgb(236, 3, 3);
+}
